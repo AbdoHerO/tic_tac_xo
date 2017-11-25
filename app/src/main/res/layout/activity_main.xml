@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdohero.tic_tac_xo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="player 1 (X) :"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@android:color/holo_blue_light"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/player1"
+                android:layout_weight="1"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 2 (O):"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@android:color/holo_blue_light"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:id="@+id/player2"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b00"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"/>
+
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b01"
+                        android:textSize="10dp"
+
+                        android:textColor="@android:color/black"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b02"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"
+                        />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b10"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b11"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b12"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b20"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b21"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b22"
+                        android:textSize="10dp"
+                        android:textColor="@android:color/black"
+                        />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Play Again"
+                android:textColor="@android:color/holo_red_dark"
+                android:background="@android:color/holo_blue_light"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/again"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
